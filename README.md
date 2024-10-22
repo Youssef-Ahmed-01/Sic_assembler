@@ -15,9 +15,11 @@ This project is a SIC (Simplified Instructional Computer) assembler that transla
 
 1. **Clone the repository**
 2. **compile the main.c using gcc compiler**
-    '''bash
+    ```terminal/bash
     cd src
     gcc main.c -o reader.exe
     mv reader.exe ..
+
+3. **run by adding SIC assembly code and the output file**  
+    ```terminal/bash
     ./program.exe input.asm output.obj
-# Sic_assembler
